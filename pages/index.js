@@ -1,22 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import styles from "../styles/page.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <main className={styles.main}>
       <Navbar />
-      <section id="/">
-        <h1>Home</h1>
-      </section>
-      <section id="about">
-        <h1>About</h1>
-      </section>
-      <section id="contact">
-        <h1>Contact</h1>
-      </section>
-      <section id="portflio">
-        <h1>Portfolio</h1>
-      </section>
-    </div>
+
+      <h1 className={styles.head}>Christian Smith</h1>
+      <h4 className={styles.desc}>Software engineer and web developer</h4>
+    </main>
   );
 }

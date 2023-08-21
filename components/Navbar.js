@@ -9,13 +9,13 @@ function Navbar() {
         <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <Link href="#about">About</Link>
       </li>
       <li>
-        <Link href="/portfolio">Portfolio</Link>
+        <Link href="#portfolio">Portfolio</Link>
       </li>
       <li>
-        <Link href="/contact">Contact</Link>
+        <Link href="#contact">Contact</Link>
       </li>
     </div>
   );
